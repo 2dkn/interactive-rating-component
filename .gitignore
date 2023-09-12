@@ -4,7 +4,6 @@
 #####################################################
 *.sketch
 *.fig
-node_modules
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
@@ -15,3 +14,6 @@ node_modules
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+#dependencies
+# /node_modules
