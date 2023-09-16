@@ -1,0 +1,37 @@
+@use "variables" as *; // * makes it so you don't have to use variables in front of it.
+
+html {
+  background-color: $veryDark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: $darkBlue;
+  width: 25%;
+  height: 25rem;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+.survey {
+}
+
+.header {
+}
+
+.words {
+}
+
+.rate-btn {
+}
+
+.submit-btn {
+}

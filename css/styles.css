@@ -1,0 +1,22 @@
+html {
+  background-color: hsl(216, 12%, 8%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  width: 25%;
+  height: 25rem;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
