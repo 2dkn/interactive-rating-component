@@ -13,10 +13,48 @@ body {
 
 .container {
   background-color: hsl(213, 19%, 18%);
-  width: 25%;
-  height: 25rem;
+  width: 22rem;
+  min-height: 20rem;
   border-radius: 1.5rem;
   padding: 2rem;
+}
+
+.star {
+  display: inline-block;
+  border: 0.5rem solid hsl(214, 20%, 14%);
+  border-radius: 50%;
+}
+
+.header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.9rem;
+  color: white;
+}
+
+.words {
+  color: hsl(217, 12%, 63%);
+}
+
+.rate-btn {
+  cursor: pointer;
+  text-align: center;
+}
+
+.rate-btn button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0.8rem;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  border: 1rem solid hsl(25, 97%, 53%);
+  border-radius: 5rem;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
