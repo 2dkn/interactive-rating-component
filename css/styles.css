@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  background-color: hsl(213, 19%, 18%);
+  background: linear-gradient(hsl(213, 19%, 18%), hsl(215, 19%, 12%));
   width: 22rem;
   min-height: 20rem;
   border-radius: 1.5rem;
@@ -27,17 +27,21 @@ body {
 
 .header {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   color: white;
 }
 
 .words {
   color: hsl(217, 12%, 63%);
+  font-size: 1.1rem;
 }
 
 .rate-btn {
+  display: flex;
+  justify-content: center;
   cursor: pointer;
   text-align: center;
+  flex-direction: row;
 }
 
 .rate-btn button {
@@ -52,9 +56,17 @@ body {
   color: hsl(0, 0%, 100%);
   width: 100%;
   background-color: hsl(25, 97%, 53%);
-  border: 1rem solid hsl(25, 97%, 53%);
+  border: 0.5rem solid hsl(25, 97%, 53%);
   border-radius: 5rem;
   cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.submit-btn:active {
+  border: 1rem solid hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
+  transform: scale(0.99);
+  color: hsl(25, 97%, 53%);
 }
 
 /*# sourceMappingURL=styles.css.map */
