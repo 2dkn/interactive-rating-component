@@ -21,7 +21,7 @@ body {
 
 .star {
   display: inline-block;
-  border: 0.5rem solid hsl(214, 20%, 14%);
+  border: 0.7rem solid hsl(214, 20%, 14%);
   border-radius: 50%;
 }
 
@@ -49,6 +49,13 @@ body {
   height: 40px;
   border-radius: 50%;
   margin: 0.8rem;
+  background-color: hsl(213, 19%, 18%);
+  text-decoration: none;
+  border: none;
+}
+
+.rate-btn button.clicked {
+  background-color: hsl(25, 97%, 53%);
 }
 
 .submit-btn {
