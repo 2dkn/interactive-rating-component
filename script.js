@@ -36,10 +36,11 @@ submitButton.addEventListener("click", function () {
 });
 
 returnButton.addEventListener("click", function () {
-  surveyBack.style.display = "none";
-  survey.innerHTML = originalSurvey;
-  selectedRating = null;
-  rateButtons.forEach((btn) => {
-    btn.classList.remove("clicked");
-  });
+  window.location.href = "index.html";
+  //   surveyBack.style.display = "none";
+  //   survey.innerHTML = originalSurvey;
+  //   selectedRating = null;
+  //   rateButtons.forEach((btn) => {
+  //     btn.classList.remove("clicked");
+  //   });
 });
