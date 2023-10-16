@@ -2,8 +2,6 @@
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
-![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
-
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -31,7 +29,7 @@ Your users should be able to:
 ### Links
 
 - Solution URL: [Solution Site]()
-- Live Site URL:[Live Site](https://interactive-rating-component-2dkn.netlify.app/)
+- Live Site URL: [Live Site](https://interactive-rating-component-2dkn.netlify.app/)
 
 ### Built With
 
