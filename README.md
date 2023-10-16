@@ -26,9 +26,12 @@ Your users should be able to:
 
 ### Screenshot
 
+- Screen
+  ![Design preview for the Interactive rating component coding challenge](./design/interactive-rating-component-2dkn.netlify.app_index.html.png)
+
 ### Links
 
-- Solution URL: [Solution Site]()
+- Solution URL: [Solution Site](https://www.frontendmentor.io/solutions/interactive-rating-component-cL7CPTnnzR)
 - Live Site URL: [Live Site](https://interactive-rating-component-2dkn.netlify.app/)
 
 ### Built With
