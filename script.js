@@ -5,8 +5,10 @@ const submitButton = document.querySelector(".submit-btn");
 const survey = document.querySelector(".survey");
 const surveyBack = document.querySelector(".survey__back");
 const selectedRatingText = document.querySelector(".selected__rating");
+const returnButton = document.querySelector(".return-btn");
+const originalSurvey = survey.innerHTML;
 
-let selectedRating = 0;
+let selectedRating = null;
 
 rateButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -16,16 +18,28 @@ rateButtons.forEach((button) => {
 
     button.classList.add("clicked");
 
-    selectedRating = parseInt(button.textContent, 10);
+    selectedRating = parseInt(button.textContent);
 
     selectedRatingText.textContent = `You selected ${selectedRating} out of 5`;
   });
 });
 
 submitButton.addEventListener("click", function () {
-  while (survey.firstChild) {
-    survey.removeChild(survey.firstChild);
+  if (selectedRating != null) {
+    while (survey.firstChild) {
+      survey.removeChild(survey.firstChild);
+    }
+    surveyBack.style.display = "flex";
+  } else {
+    alert("Please select a rating number before hitting submit.");
   }
+});
 
-  surveyBack.style.display = "flex";
+returnButton.addEventListener("click", function () {
+  surveyBack.style.display = "none";
+  survey.innerHTML = originalSurvey;
+  selectedRating = null;
+  rateButtons.forEach((btn) => {
+    btn.classList.remove("clicked");
+  });
 });

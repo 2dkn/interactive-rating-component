@@ -111,10 +111,39 @@ body {
 }
 
 .selected__rating {
+  display: inline-block;
+  border: 0.7rem solid hsl(213, 19%, 18%);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1.5rem;
+  color: $orange;
 }
 
 .header__back {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  margin: none;
 }
 
 .back__text {
+  color: $lightGray;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.return-btn {
+  color: $white;
+  width: 100%;
+  background-color: $orange;
+  border: 1rem solid $orange;
+  border-radius: 5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.return-btn:hover {
+  border: 1rem solid $white;
+  background-color: $white;
+  transform: scale(0.99);
+  color: $orange;
 }
